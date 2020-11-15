@@ -1,6 +1,7 @@
 /public/client
 /public/admin
 .DS_Store
+storage
 storage/.DS_Store
 .buildpath
 .project

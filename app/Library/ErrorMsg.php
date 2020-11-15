@@ -1,0 +1,41 @@
+<?php
+namespace App\Library;
+class ErrorMsg {
+    const SUCCESS = '成功';
+    const ERROR_INVALID_TELEPHONE = '错误的电话号码';
+    const ERROR_SIGN = '签名不对';
+    const ERROR_SMS_FAIL = '短信发送失败';
+    const ERROR_INVALID_NICKNAME = '昵称最少2个字，最多8个字';
+    const ERROR_EXPIRE_CODE = '验证码已过期';
+    const ERROR_VERIFY_CODE = '验证码错误';
+    const ERROR_INVALID_USERNAME = '用户名同时由字母+数字组成，6-12位';
+    const ERROR_INVALID_PASSWORD = '密码同时由字母+数字组成，8-12位';
+    const ERROR_DUPLICATE_USERNAME = '用户名已经存在';
+    const ERROR_DUPLICATE_TELEPHONE = '手机号码已经存在';
+    const ERROR_SERVER_ERROR = '服务器错误';
+    const ERROR_PASSWORD_REQUIRED = '密码为必填字段';
+    const ERROR_UNSUPPORTED_LOGIN = '不支持的登录方式';
+    const ERROR_USERNAME_REQUIRED = '用户名为必填字段';
+    const ERROR_TELEPHONE_OR_PASSWORD = '手机号码或密码错误';
+    const ERROR_USERNAME_OR_PASSWORD = '用户名或密码错误';
+    const ERROR_TELEPHONE_REQUIRED = '手机号码为必填字段';
+    const ERROR_HEADER_REQUIRED = '请上传头像';
+    const ERROR_HEADER_INVALID = '头像不符合要求或者超出大小限制';
+    const ERROR_TOKEN_EXPIRED = '登录信息已经过期';
+    const ERROR_CHAT_NOT_EXIST = '该会话不存在';
+    const ERROR_NO_SUCH_USER = '用户不存在';
+    const ERROR_INVALID_PARAM = '参数无效';
+    const ERROR_WRONG_PASSWORD = '密码错误';
+    const ERROR_PROMO_CODE_EXIST = '优惠码已经存在';
+    const ERROR_PROMO_NOT_EXIST = '优惠不存在';
+    const ERROR_NOT_AGENT = '您不是代理';
+    const ERROR_NO_SUCH_BANKCARD = '没有这张银行卡';
+    const ERROR_GUEST_NO_WITHDRAW = '试玩用户不能提款';
+    const ERROR_WITHDRAW_POSITIVE = '提现金额必须大于0';
+    const ERROR_WRONG_NOTIFY_SIGN = '错误的回调签名';
+    const ERROR_NO_SUCH_PAY_ORDER = '没有这个支付订单';
+    const ERROR_ALREADY_NOTIFY = '已经发起过回调';
+    const ERROR_FAKE_PAY_NOTIFY = '伪造的支付回调';
+    const ERROR_NO_SUCH_WITHDRAW_ORDER = '没有这个提款订单';
+    const ERROR_OTHER_LOCK_ORDER = '他人已经锁定这个订单';
+}

@@ -1,0 +1,49 @@
+<?php
+namespace App\Library;
+class ErrorCode{
+    const SUCCESS = 0;
+    const ERROR_INVALID_TELEPHONE = 101;
+    const ERROR_INVALID_NICKNAME = 102;
+    const ERROR_INVALID_USERNAME = 103;
+    const ERROR_INVALID_PASSWORD = 104;
+    const ERROR_EXPIRE_CODE = 105;
+    const ERROR_PASSWORD_REQUIRED = 106;
+    const ERROR_UNSUPPORTED_LOGIN = 107;
+    const ERROR_USERNAME_REQUIRED = 108;
+    const ERROR_TELEPHONE_REQUIRED = 109;
+    const ERROR_HEADER_REQUIRED = 110;
+    const ERROR_HEADER_INVALID = 111;
+    const ERROR_SIGN = 201;
+    const ERROR_VERIFY_CODE = 202;
+    const ERROR_DUPLICATE_USERNAME = 203;
+    const ERROR_DUPLICATE_TELEPHONE = 204;
+    const ERROR_TELEPHONE_OR_PASSWORD = 205;
+    const ERROR_USERNAME_OR_PASSWORD = 206;
+    const ERROR_WRONG_PASSWORD = 207;
+    // 与金钱相关的错误，应该非常多
+    const ERROR_NO_SUCH_BANKCARD = 301;
+    const ERROR_WRONG_NOTIFY_SIGN = 302;
+    const ERROR_NO_SUCH_PAY_ORDER = 303;
+    const ERROR_ALREADY_NOTIFY = 304;
+    const ERROR_FAKE_PAY_NOTIFY = 305;
+    const ERROR_NO_SUCH_WITHDRAW_ORDER = 306;
+    const ERROR_OTHER_LOCK_ORDER = 307;
+    // 其他一些错误
+    const ERROR_TOKEN_EXPIRED = 401;
+    const ERROR_CHAT_NOT_EXIST = 402;
+    const ERROR_WITHDRAW_POSITIVE = 403;
+    // 特殊通用错误
+    const ERROR_SMS_FAIL = 501;
+    const ERROR_SERVER_ERROR = 505;
+    // 比较常见通用的错误
+    const ERROR_LACK_PARAMS = 701;
+    const ERROR_NO_SUCH_USER = 702;
+    const ERROR_INVALID_PARAM = 703;
+    const ERROR_PROMO_CODE_EXIST = 801;
+    const ERROR_PROMO_NOT_EXIST = 802;
+    // 代理相关的错误
+    const ERROR_NOT_AGENT = 901;
+    // 规则限制错误
+    const ERROR_GUEST_NO_WITHDRAW = 1001;
+}
+
